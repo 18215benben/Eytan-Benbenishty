@@ -22,6 +22,7 @@ form{
     align-items: center;
     max-width: 400px;
     width: 100%;
+    float: right;
 }
 
 .subscribe{
@@ -38,6 +39,7 @@ form{
 {
     float: left;
     text-align: left;
+    font-size: 20px;
 }
 #explain{
     display: grid;
@@ -65,4 +67,9 @@ h1{
         border-image-source: linear-gradient(45deg, #f31261, #8e44ad, #3498db);
     }
 }
-
+.page{
+display: flexbox;
+}
+video{
+    background:linear-gradient(to right, rgb(17,99,175), rgb(122,233,247));
+}
