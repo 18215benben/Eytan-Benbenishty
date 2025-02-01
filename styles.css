@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(to left, rgb(236,34,208),rgb(141,17,213), rgb(130,245,253), rgb(17,99,175));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+input, textarea, button{
+    border-radius: 20px;
+    padding: 5px;
+    background-color: aliceblue;
+    width: 200px;
+    border-image: linear-gradient(45deg, #12f330, #8e44ad, #3498db) 1;
+    animation: gradient-border 2s infinite;
+    border-width: 5px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 1px;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.subscribe{
+    align-content: center;
+    border-width: 10px;
+}
+
+.heading
+{
+    float: left;
+}
+
+.text
+{
+    float: left;
+    text-align: left;
+}
+#explain{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 20px;
+}
+h1{
+    background: linear-gradient(to right, rgb(248,0,6), rgb(51,0,204));
+    background-clip: text;
+    color: transparent;
+    font-size: 50px;
+}
+@keyframes gradient-border{
+    0%{
+        border-radius: 20px;
+        border-image-source: linear-gradient(45deg, #f31261, #8e44ad, #3498db);
+    }
+    33%{
+        border-image-source: linear-gradient(45deg,  #8e44ad, #3498db,#f31261);
+    }
+    66%{
+        border-image-source: linear-gradient(45deg, #8e44ad,#f31261, #3498db);
+    }
+    100%{
+        border-image-source: linear-gradient(45deg, #f31261, #8e44ad, #3498db);
+    }
+}
+
