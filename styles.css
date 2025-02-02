@@ -28,6 +28,7 @@ form{
 .subscribe{
     align-content: center;
     border-width: 10px;
+    margin-left: 50px;
 }
 
 .heading
@@ -70,6 +71,28 @@ h1{
 .page{
 display: flexbox;
 }
-video{
-    background:linear-gradient(to right, rgb(17,99,175), rgb(122,233,247));
+
+#glass-container{
+    width: 300px;
+    height: 600px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.027);
+    align-items: center;
+    margin-left: 20px;
+    backdrop-filter: blur(50px);
+    border-top:1px solid rgba(255, 255, 255, 0.4);
+    border-left:1px solid rgba(255, 255, 255, 0.3);
+    max-width: fit-content;
+    margin-inline: auto;
+
+}
+button{
+    color: black;
+}
+#any-key{
+    width: 100px;
+}
+.memes{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 }
