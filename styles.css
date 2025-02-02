@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to left, rgb(236,34,208),rgb(141,17,213), rgb(130,245,253), rgb(17,99,175));
+    background: linear-gradient(315deg, rgb(236,34,208),rgb(141,17,213), rgb(130,245,253), rgb(17,99,175));
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -77,14 +77,14 @@ display: flexbox;
 
 #glass-container{
     width: 18.615rem;
-    height: 37.23rem;
+    height: 31.23rem;
     border-radius: 3.125rem;
     background-color: rgba(255, 255, 255, 0.027);
     align-items: center;
     margin-left: 1.25rem;
     backdrop-filter: blur(3.125rem);
-    border-top:0.625rem solid rgba(255, 255, 255, 0.4);
-    border-left:0.625rem solid rgba(255, 255, 255, 0.3);
+    border-top:0.0625rem solid rgba(255, 255, 255, 0.4);
+    border-left:0.0625rem solid rgba(255, 255, 255, 0.3);
     max-width: fit-content;
     margin-inline: auto;
 
