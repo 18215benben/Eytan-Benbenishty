@@ -83,8 +83,8 @@ display: flexbox;
     align-items: center;
     margin-left: 1.25rem;
     backdrop-filter: blur(3.125rem);
-    border-top: 0.0625rem solid rgba(255, 255, 255, 0.4);
-    border-left: 0.0625rem solid rgba(255, 255, 255, 0.3);
+    border-top:0.0625rem solid rgba(255, 255, 255, 0.4);
+    border-left:0.0625rem solid rgba(255, 255, 255, 0.3);
     max-width: fit-content;
     margin-inline: auto;
 
